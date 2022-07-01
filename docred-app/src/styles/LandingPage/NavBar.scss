@@ -1,0 +1,148 @@
+.menu{
+    margin-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    transform: translateY(0px);
+    font-family: Montserrat,sans-serif;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    height: 52px;
+    background-color: #1A80C7;
+    color: white;
+}
+
+.menu__title {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: .02em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 4%;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.menu__content{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    width: 14%;
+    height: 10%;
+}
+
+.menu__title .input{
+    margin-left: 4%;
+    width: 85%;
+
+}
+
+.input-icon {
+    color: #85C159;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 2px;
+    cursor: pointer;
+  }
+
+input:focus, input:active {
+    outline: none;
+}
+
+
+  .menu__title>.inputText {
+    border-bottom-right-radius: 15px;
+    border: transparent;
+
+}
+
+.menu__title>.inputSearch {
+    border-top-left-radius: 15px;
+    border: transparent;
+}
+
+.inputText {
+    box-sizing: border-box;
+    color: #191919;
+    padding: 0px 25px;
+    height: 20px;
+    font-size: 10px;
+
+}
+
+.inputSearch {
+    width: 5%;
+    margin-right: 1%;
+    height: 20px;
+}
+
+
+.menu__profile-menu ul:nth-child(1) {
+    border-left: 1px solid white;
+}
+
+.meta-author-avatar img {
+    border-radius: 50%;
+    width: 20px;
+    border: 2px solid white;
+}
+
+
+.menu__home {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu__profile {
+    font-size: 15px;
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu__content div:nth-child(2) {
+    width: 30%;
+}
+
+.menu__content div:nth-child(3) {
+    
+    margin-right: 10%;
+}
+
+.menu__content div:nth-child(4) {
+    width: 10%;
+    margin-left: 5%;
+}
+
+.menu__profile i {
+    padding: 4px;
+}
+.meta-author-avatar{
+    padding: 4px;
+
+}
+
+
+    .lineaVertical{
+        background-color: white;
+        height: 30px;
+        
+    }
