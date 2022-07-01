@@ -1,0 +1,22 @@
+.content__center {
+    display:flex;
+    flex-direction: row;
+}
+
+.article__center {
+    display: flex;
+    width: 84%;
+    margin-bottom: 50%;
+}
+
+.article__center :nth-child(1){
+    display: flex;
+    /* align-content: stretch; */
+    width:100%;
+    height: 100vh;
+    font-size: 86px;
+    justify-content: space-around;
+    background-color: white;
+    margin: 9% 6% ;
+    border-radius: 10px ;
+}
