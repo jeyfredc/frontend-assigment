@@ -29,7 +29,7 @@ const NavBar = () => {
             <i className="pi pi-angle-down"/>
         </div>
         <div className="menu__profile">
-        <hr align="left" class="lineaVertical" noshade="noshade"/>
+        <hr align="left" className="lineaVertical" noshade="noshade"/>
           <i className="pi pi-bell"/>
           <div className="meta-author-avatar"> 
           <img src="https://cdn.roelmagdaleno.com/assets/uploads/2019/08/ZHFS36po_400x400.jpg" loading="lazy" alt="Roel Magdaleno" />

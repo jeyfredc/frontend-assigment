@@ -1,14 +1,17 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import ContentCenter from './LandingPage/ContentCenter'
 import NavBar from './LandingPage/NavBar'
+import { Provider } from 'react-redux'
+import { store } from '../store/store';
+import Footer from './LandingPage/Footer';
 
 const App = () => {
   return (
-    <Fragment>
+    <Provider store={ store }>
     <NavBar/>
-    
     <ContentCenter/>
-    </Fragment>
+    <Footer/>
+    </Provider>
   )
 }
 

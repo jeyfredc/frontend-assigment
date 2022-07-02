@@ -110,6 +110,7 @@ input:focus, input:active {
     display: flex;
     align-items: center;
     cursor: pointer;
+    gap: 4px;
 }
 
 .menu__profile {
@@ -139,7 +140,11 @@ input:focus, input:active {
 }
 .meta-author-avatar{
     padding: 4px;
+    margin: 0;
+}
 
+.menu__home> p {
+margin: 0;
 }
 
 

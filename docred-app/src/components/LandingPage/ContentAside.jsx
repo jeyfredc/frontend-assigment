@@ -13,7 +13,6 @@ const ContentAside = () => {
       </div>
       <div className="content__notice__article">
         <img src={fontImage} alt="noticia" className="imageNoticeMini imgMini" />
-        <button>Noticia</button>
         <h5 className="titleMini">Lorem ipsum, dolor sit amet consectetur </h5>
         <p className="textMini">Por: Lorem ipsum dolor </p>
         <div className="view__article">
@@ -33,7 +32,6 @@ const ContentAside = () => {
       <hr className="separation"/>
       <div className="content__notice__article">
         <img src={fontImage} alt="noticia" className="imageNoticeMini imgMini" />
-        <button>Noticia</button>
         <h5 className="titleMini">Lorem ipsum, dolor sit amet consectetur </h5>
         <p className="textMini">Por: Lorem ipsum dolor </p>
         <div className="view__article">
@@ -53,7 +51,6 @@ const ContentAside = () => {
       <hr className="separation"/>
       <div className="content__notice__article">
         <img src={fontImage} alt="noticia" className="imageNoticeMini imgMini" />
-        <button>Noticia</button>
         <h5 className="titleMini">Lorem ipsum, dolor sit amet consectetur </h5>
         <p className="textMini">Por: Lorem ipsum dolor </p>
         <div className="view__article">
@@ -73,7 +70,6 @@ const ContentAside = () => {
       <hr className="separation"/>
       <div className="content__notice__article">
         <img src={fontImage} alt="noticia" className="imageNoticeMini imgMini" />
-        <button>Noticia</button>
         <h5 className="titleMini">Lorem ipsum, dolor sit amet consectetur </h5>
         <p className="textMini">Por: Lorem ipsum dolor </p>
         <div className="view__article">
