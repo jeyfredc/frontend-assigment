@@ -148,3 +148,48 @@ cursor: pointer;
     font-size: 13px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 425px) {
+
+    .article__links {
+        font-size: 10px;
+    }
+    p {
+        font-size: 10px;
+    }
+
+    .final_article__send {
+        gap: 10px;
+    }
+
+    .final_article__send >li{
+        font-size: 4px;
+    }
+
+    .final__article {
+        border: 1px solid #2380C4;
+        border-bottom-right-radius: 25px;
+        border-top-left-radius: 25px;
+        align-self: center;
+        align-items: center;
+        width: 80%;
+        padding: 0;
+    }
+
+    li{
+        font-size: 7px!important;
+    }
+
+    .article_center__description > button {
+        left: 24px!important;
+        top: 63px!important;
+    }
+
+    .content__center {
+        display: flex;
+        width: 136%;
+        margin-bottom: 50%;
+        margin-left: 3%;
+        height: 140vh;
+    }
+}

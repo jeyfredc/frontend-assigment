@@ -107,3 +107,47 @@
 .content__notice__article >h5 {
   font-size: 11px;
 }
+
+
+@media screen and (max-width: 769px) {
+  .content__notice__article {
+
+    margin-bottom: 34%;
+}
+
+.imageNoticeMini {
+  display: none;
+}
+
+.view__article__buttons {
+  font-size: 10px;
+}
+
+.article__center {
+
+  width: 66%;
+
+}
+
+.article_center__description {
+  width: 88%;
+
+}
+
+.imageNotice {
+  object-fit: cover;
+  width: 100%;
+}
+
+#titulo > p {
+font-size: 10px !important;
+}
+
+.article_center__description > button {
+  left: 44px;
+  top: 121px;
+}
+h3{
+  font-size: 24px !important;
+}
+}

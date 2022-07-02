@@ -35,3 +35,28 @@ Puntos extras:
 - Unit testing.
 - Linting y Prettier
 - Docker
+
+## Instrucciones para instalación de dependencias
+
+1. ubicarse en la carpeta docred-app mediante el uso de comandos y ejecutar `npm i` para realizar la instalación de dependencias
+   **Nota: Es importante tener en cuenta que para este proyecto se utilizo node en la version 16.13.2 y npm en la version 8.1.2**
+
+2. Para ejecutar el programa en la consola se debe poner el comando `npm run start` despues de haber instalado dependencias
+
+3. Para lanzar el servidor ubicarse en la carpeta web server, abrir la consola y ejecutar `npm i`
+
+4. Para levantar el servidor ejecutar en la consola `npm run dev`
+
+**Nota: Para poder realizar la peticion al servidor debemos configurar el archivo variables que se encuentra dentro de la carpeta src/config/variables y modificar la ip**
+
+- Para poder modificar la Ip teclear la imagen de Windows + R -> Seguido agregar cmd -> en la consola agregar ipconfig y poner la ip local en el archivo variables de la aplicacion docred-app
+
+Se dejo la carga de la peticion en el boton de la pagina inicial llamado Noticia y debe abrir el modal con el contenido del articulo.
+
+Gracias.
+
+![mockup/img1.png](mockup/img1.png)
+
+--------------------------------------
+
+![mockup/img2.png](mockup/img2.png)

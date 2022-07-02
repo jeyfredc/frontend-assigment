@@ -50,3 +50,57 @@
     padding: 4px 113px;
     font-size: 12px;
 }
+
+
+
+@media screen and (max-width: 769px) {
+.footer__content {
+    top: 1639px;
+    width: 103%;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+}
+
+.footer__links > ul {
+    list-style: none;
+    display: flex;
+    /* gap: 87px; */
+    font-size: 12px;
+}
+
+
+
+.footer__title {
+    text-overflow: ellipsis;
+    margin-left: 4%;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 40%;
+    margin-left: 4%;
+}
+
+.logo {
+    width: 7%;
+    height: 100%;
+}
+}
+
+@media screen and (max-width: 425px) {
+.footer__content {
+    top: 1160px;
+}
+.footer__author > p {
+    font-size: 7px;
+}
+
+.logo {
+    object-fit: contain;
+}
+
+.footer__title >div{
+display: none;
+}
+}
